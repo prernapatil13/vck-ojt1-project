@@ -13,6 +13,7 @@ const Home = () => {
             <div className="other" id="other">
                 <article className="content">
                     <div className="banner">
+                        
                         <section className="hero-section">
                             <h1>Welcome to Vivekanand College!</h1>
                             <p>Your journey to excellence starts here.</p>
