@@ -16,8 +16,10 @@ const Home = () => {
                         <section className="hero-section">
                             <h1>Welcome to Vivekanand College!</h1>
                             <p>Your journey to excellence starts here.</p>
-                            <button><Link to="/admissionspage">Apply Now!</Link>
-                            </button>
+                            <Link to="/admissionspage">
+                            <button>Apply Now!</button>
+                            </Link>
+
                         </section>
                     </div>
                     
@@ -39,7 +41,7 @@ const Home = () => {
                 <figure className="image">
                     <figcaption>Campus Life & Facilities</figcaption>
                     <section className="img">
-                        <img src="/images/students-studying-DbLGuwF_.jpeg" />
+                        <img src="/images/students-studying-DbLGuwF_.jpeg"alt="students study" />
                         <img src="/images/campus-life-Crkero7B.jpg" alt="Campus life" />
                     </section>
                 </figure>
@@ -50,6 +52,6 @@ const Home = () => {
             </div>
             <div><Footer /></div>
         </>
-    )
-}
+    );
+};
 export default Home;
